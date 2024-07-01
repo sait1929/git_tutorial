@@ -1,2 +1,9 @@
-ここにはAWS Developer assosiateのメモを残します
-これはgithub_flowのテストです
+ファイルシステムID"fs-12345678"を/mnt/efsにマウントするコマンド
+sudo mount -t efs fs-12345678:/ /mnt/efs
+
+転送中のデータを暗号化したいときは-o tls オプションを付けてマウントする
+sudo mount -t efs -o tls fs-12345678:/ /mnt/efs
+
+
+
+
